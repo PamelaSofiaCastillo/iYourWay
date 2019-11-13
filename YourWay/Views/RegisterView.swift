@@ -1,24 +1,45 @@
 //
 //  RegisterView.swift
-//  YourWay
+//  iYourway
 //
-//  Created by Alumnos on 11/9/19.
-//  Copyright © 2019 yourway. All rights reserved.
+//  Created by Sofia Castillo on 11/12/19.
+//  Copyright © 2019 Sofia Castillo. All rights reserved.
 //
 
 import SwiftUI
 
 struct RegisterView: View {
-    //@State var user: User
+    @ObservedObject var registerVM = RegisterViewModel()
     
     var body: some View {
-         Text("REgister")
-        /*VStack(){
-            TextField("Name", text: $user.name)
-            TextField("Last Name", text: $user.lastName)
-            TextField("Email", text: $user.email)
-            SecureField("Password", text: $user.password)
-        }*/
+        
+        ZStack {
+            Color.green
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Image("human-handsup")
+                    .resizable()
+                    .frame(width: CGFloat(150.0), height: CGFloat(150.0))
+                
+                CustomTextField(placeholder: Text("Nombre")
+                    .foregroundColor(.white), text: $registerVM.name)
+                
+                CustomTextField(placeholder: Text("Apellido")
+                    .foregroundColor(.white), text: $registerVM.lastName)
+                
+                CustomTextField(placeholder: Text("Correo")
+                    .foregroundColor(.white), text: $registerVM.email)
+                
+                CustomSecureField(placeholder: Text("Contraseña")
+                    .foregroundColor(.white), text: $registerVM.password)
+                
+                CustomButton(text: "Siguiente")
+                    .padding(.top, 16)
+                    .padding(.horizontal, 64)
+            }
+        }
+        
     }
 }
 

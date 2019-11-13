@@ -1,45 +1,65 @@
 //
-//  LoginView.swift
-//  YourWay
+//  ContentView.swift
+//  iYourway
 //
-//  Created by Alumnos on 11/9/19.
-//  Copyright © 2019 yourway. All rights reserved.
+//  Created by Sofia Castillo on 11/11/19.
+//  Copyright © 2019 Sofia Castillo. All rights reserved.
 //
 
 import SwiftUI
 
 struct LoginView: View {
-    @State private var username: String = ""
-    @State private var password: String = ""
+    @ObservedObject var loginVM = LoginViewModel()
     
     var body: some View {
-        NavigationView{
-            VStack(){
-                Image("logo")
-                    .resizable()
-                    .frame(width: 75, height:75)
-                    .padding(Edge.Set.bottom, 20)
-                Text("YourWay")
-                    .bold().font(.title)
-                TextField("Usuario", text: $username)
-                    .padding()
-                    .cornerRadius(4.0)
-                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 15, trailing: 0))
-                SecureField("Password", text: $password)
-                    .padding()
-                    .cornerRadius(4.0)
-                    .padding(.bottom, 10)
-                Button(action: {}, label: {Text("Registrarse")})
-                Button(action: {}, label: {Text("Click me")})
-            }.padding()
-            
-        }
+        NavigationView {
+            ZStack {
+                Color.green
+                    .edgesIgnoringSafeArea(.all)
+                
+                VStack {
+                    Image("human-handsup")
+                        .resizable()
+                        .frame(width: CGFloat(150.0), height: CGFloat(150.0))
+                    
+                    Text("YourWay")
+                        .font(.largeTitle)
+                        .foregroundColor(.white)
+                    
+                    CustomTextField(placeholder: Text("Correo")
+                        .foregroundColor(.white), text: $loginVM.email)
+                    
+                    CustomSecureField(placeholder: Text("Contraseña")
+                        .foregroundColor(.white), text: $loginVM.password)
+                    
+                    CustomButton(text: "Iniciar")
+                        .padding(.top, 16)
+                        .padding(.horizontal, 64)
+                    
+                    NavigationLink(destination: RegisterView(registerVM: RegisterViewModel())) {
+                        HStack {
+                            Text("Registrate")
+                                .font(.body)
+                        }
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                        .padding(.vertical, 12)
+                        .foregroundColor(.white)
+                        .background(Color(red: 33/255, green: 182/255, blue: 168/255, opacity: 1.0))
+                        .cornerRadius(30)
+                    }
+                    .shadow(radius: 3)
+                    .padding(.top, 16)
+                    .padding(.horizontal, 64)
+                }
+            }
+        }.navigationBarTitle("Login")
     }
+    
 }
 
 struct LoginView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        LoginView()
+        LoginView(loginVM: LoginViewModel())
     }
 }
-

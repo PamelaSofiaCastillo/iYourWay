@@ -25,6 +25,11 @@
 		7F6010BB23772E82006703C5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BA23772E82006703C5 /* Place.swift */; };
 		7F6010BD23772FA2006703C5 /* SportEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BC23772FA2006703C5 /* SportEvent.swift */; };
 		7F6010BF237736C5006703C5 /* SportEventUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BE237736C5006703C5 /* SportEventUser.swift */; };
+		FD901229237B89CE009D3E94 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD901228237B89CE009D3E94 /* RegisterViewModel.swift */; };
+		FD90122B237B89F0009D3E94 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90122A237B89F0009D3E94 /* LoginViewModel.swift */; };
+		FD90122D237B8A27009D3E94 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90122C237B8A27009D3E94 /* CustomTextField.swift */; };
+		FD90122F237B8A48009D3E94 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90122E237B8A48009D3E94 /* CustomSecureField.swift */; };
+		FD901231237B8A61009D3E94 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD901230237B8A61009D3E94 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,11 @@
 		7F6010BA23772E82006703C5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		7F6010BC23772FA2006703C5 /* SportEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEvent.swift; sourceTree = "<group>"; };
 		7F6010BE237736C5006703C5 /* SportEventUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventUser.swift; sourceTree = "<group>"; };
+		FD901228237B89CE009D3E94 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		FD90122A237B89F0009D3E94 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FD90122C237B8A27009D3E94 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FD90122E237B8A48009D3E94 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		FD901230237B8A61009D3E94 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,9 @@
 				7F6010B423772CCA006703C5 /* TabFriendView.swift */,
 				7F6010B623772CE0006703C5 /* TabPlaceView.swift */,
 				7F6010B823772CF9006703C5 /* TabProfileView.swift */,
+				FD90122C237B8A27009D3E94 /* CustomTextField.swift */,
+				FD90122E237B8A48009D3E94 /* CustomSecureField.swift */,
+				FD901230237B8A61009D3E94 /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +152,8 @@
 		7F6010A32377180E006703C5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				FD901228237B89CE009D3E94 /* RegisterViewModel.swift */,
+				FD90122A237B89F0009D3E94 /* LoginViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -215,14 +230,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6010BF237736C5006703C5 /* SportEventUser.swift in Sources */,
+				FD90122F237B8A48009D3E94 /* CustomSecureField.swift in Sources */,
 				7F60108F2377172B006703C5 /* YourWay.xcdatamodeld in Sources */,
 				7F6010BB23772E82006703C5 /* Place.swift in Sources */,
+				FD901231237B8A61009D3E94 /* CustomButton.swift in Sources */,
+				FD901229237B89CE009D3E94 /* RegisterViewModel.swift in Sources */,
 				7F6010B323772CB9006703C5 /* TabInvitationView.swift in Sources */,
 				7F60108A2377172B006703C5 /* AppDelegate.swift in Sources */,
 				7F6010B123772C9E006703C5 /* TabEventView.swift in Sources */,
 				7F6010912377172B006703C5 /* ContentView.swift in Sources */,
+				FD90122D237B8A27009D3E94 /* CustomTextField.swift in Sources */,
 				7F6010B723772CE0006703C5 /* TabPlaceView.swift in Sources */,
 				7F6010A723771EC4006703C5 /* RegisterView.swift in Sources */,
+				FD90122B237B89F0009D3E94 /* LoginViewModel.swift in Sources */,
 				7F6010A523771862006703C5 /* LoginView.swift in Sources */,
 				7F6010B523772CCA006703C5 /* TabFriendView.swift in Sources */,
 				7F60108C2377172B006703C5 /* SceneDelegate.swift in Sources */,

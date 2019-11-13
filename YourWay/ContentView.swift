@@ -32,7 +32,7 @@ struct ViewApp: View {
             if validateUser.showResults {
                 MenuView()
             } else {
-                LoginView()
+                LoginView(loginVM: LoginViewModel())
             }
         }
     }
