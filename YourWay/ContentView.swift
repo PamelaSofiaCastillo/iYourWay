@@ -69,5 +69,15 @@ struct MenuView: View {
 }
 
 func validateUserFromDataCore() -> Bool {
-    return false
+    //let existUser = UserDefaults.standard.set(true,forKey: "existUser")
+    //var existUser: Bool
+    
+    var exist = UserDefaults.standard.bool(forKey: "existUser") ?? false
+    
+    /*if(exist==false) {
+        let existUser = UserDefaults.standard.set(true,forKey: "existUser")
+        exist = UserDefaults.standard.bool(forKey: "existUser")
+    }*/
+    
+    return true
 }

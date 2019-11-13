@@ -25,6 +25,10 @@
 		7F6010BB23772E82006703C5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BA23772E82006703C5 /* Place.swift */; };
 		7F6010BD23772FA2006703C5 /* SportEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BC23772FA2006703C5 /* SportEvent.swift */; };
 		7F6010BF237736C5006703C5 /* SportEventUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BE237736C5006703C5 /* SportEventUser.swift */; };
+		7F728C78237B7F52003212E2 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F728C77237B7F52003212E2 /* EventViewModel.swift */; };
+		7F728C7A237B8232003212E2 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F728C79237B8232003212E2 /* EventListViewModel.swift */; };
+		7F728C7C237B82F2003212E2 /* EventListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F728C7B237B82F2003212E2 /* EventListService.swift */; };
+		7F728C7E237B895C003212E2 /* InvitationDetalleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F728C7D237B895C003212E2 /* InvitationDetalleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		7F6010BA23772E82006703C5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		7F6010BC23772FA2006703C5 /* SportEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEvent.swift; sourceTree = "<group>"; };
 		7F6010BE237736C5006703C5 /* SportEventUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventUser.swift; sourceTree = "<group>"; };
+		7F728C77237B7F52003212E2 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		7F728C79237B8232003212E2 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		7F728C7B237B82F2003212E2 /* EventListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListService.swift; sourceTree = "<group>"; };
+		7F728C7D237B895C003212E2 /* InvitationDetalleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationDetalleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,7 @@
 		7F6010A1237717F5006703C5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7F728C7B237B82F2003212E2 /* EventListService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 				7F6010A623771EC4006703C5 /* RegisterView.swift */,
 				7F6010B023772C9E006703C5 /* TabEventView.swift */,
 				7F6010B223772CB9006703C5 /* TabInvitationView.swift */,
+				7F728C7D237B895C003212E2 /* InvitationDetalleView.swift */,
 				7F6010B423772CCA006703C5 /* TabFriendView.swift */,
 				7F6010B623772CE0006703C5 /* TabPlaceView.swift */,
 				7F6010B823772CF9006703C5 /* TabProfileView.swift */,
@@ -139,6 +149,8 @@
 		7F6010A32377180E006703C5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7F728C79237B8232003212E2 /* EventListViewModel.swift */,
+				7F728C77237B7F52003212E2 /* EventViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -214,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F728C7C237B82F2003212E2 /* EventListService.swift in Sources */,
 				7F6010BF237736C5006703C5 /* SportEventUser.swift in Sources */,
 				7F60108F2377172B006703C5 /* YourWay.xcdatamodeld in Sources */,
 				7F6010BB23772E82006703C5 /* Place.swift in Sources */,
@@ -226,7 +239,10 @@
 				7F6010A523771862006703C5 /* LoginView.swift in Sources */,
 				7F6010B523772CCA006703C5 /* TabFriendView.swift in Sources */,
 				7F60108C2377172B006703C5 /* SceneDelegate.swift in Sources */,
+				7F728C7A237B8232003212E2 /* EventListViewModel.swift in Sources */,
 				7F6010B923772CF9006703C5 /* TabProfileView.swift in Sources */,
+				7F728C7E237B895C003212E2 /* InvitationDetalleView.swift in Sources */,
+				7F728C78237B7F52003212E2 /* EventViewModel.swift in Sources */,
 				7F6010A923772063006703C5 /* User.swift in Sources */,
 				7F6010BD23772FA2006703C5 /* SportEvent.swift in Sources */,
 			);

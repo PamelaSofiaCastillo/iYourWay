@@ -8,9 +8,27 @@
 
 import SwiftUI
 
+struct GodRow: View {
+  var event: EventViewModel
+  
+  var body: some View {
+    Text("event.title")
+    //print(event.title)
+  }
+}
+
 struct TabInvitationView: View {
+    @ObservedObject private var eventListViewModel = EventListViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        List(self.eventListViewModel.events){
+            event in
+                NavigationLink(destination: InvitationDetalleView(event: event)){
+                GodRow(event: event)
+                
+            
+            }
+        }.navigationBarTitle(Text("Event"), displayMode: .automatic)
     }
 }
 
@@ -19,3 +37,5 @@ struct TabInvitationView_Previews: PreviewProvider {
         TabInvitationView()
     }
 }
+
+
