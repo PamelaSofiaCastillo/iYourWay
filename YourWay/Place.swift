@@ -9,16 +9,18 @@
 import Foundation
 
 struct Place: Codable {
-    var name: String
-    var lat: String
-    var lng: String
-    var active: Bool
-    var sportType: Int
+    var id: Int?
+    var name: String?
+    var lat: String?
+    var lng: String?
+    var active: Bool?
+    var sportType: Int?
     
     init(){
-        name = ""
-        lat = ""
-        lng = ""
+        id = 0
+        name = "Unknowm"
+        lat = "Unknowm"
+        lng = "Unknowm"
         active = true
         sportType = 0
     }

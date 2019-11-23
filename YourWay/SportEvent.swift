@@ -9,32 +9,36 @@
 import Foundation
 
 struct SportEvent: Codable {
+    var id: Int?
+    var title: String?
+    var description: String?
+    var userId: Int?
+    var sportTypeId: Int?
+    var privacityTypeId: Int?
+    var rating: Float?
+    var placeId: Int?
+    var active: Bool?
+    var date: String?
     
-    var title: String
-    var description: String
-    var userId: String
-    var sportTypeId: String
-    var privacityTypeId: String
-    var placeId: String
-    var active: String
-    var date: String
+    var place: Place?
     var sportEventByUsers: [SportEventUser]
     
-    var rating: String
-    var place: Place
-    
     init(){
+        id = 0
         title = "Unknowm"
         description = "Unknowm"
-        userId = "Unknowm"
-        sportTypeId = "Unknowm"
-        privacityTypeId = "Unknowm"
-        placeId = "Unknowm"
-        active = "Unknowm"
-        date = Date().description(with: .current)
-        sportEventByUsers = []
-        rating = ""
+        userId = 0
+        sportTypeId = 0
+        privacityTypeId = 0
+        placeId = 0
+        active = true
+        date = "Unknowm"
+        rating = 0.0
+        
         place = Place()
+        sportEventByUsers = [SportEventUser(), SportEventUser(), SportEventUser()]
     }
+    
+    
 }
     

@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+
 class ValidateUser: ObservableObject  {
     @Published var showResults:Bool = validateUserFromDataCore()
 }
@@ -28,42 +29,15 @@ struct ViewApp: View {
     @EnvironmentObject var validateUser: ValidateUser
     
     var body: some View {
-        VStack {
+        ZStack {
+            Color.green
+                .edgesIgnoringSafeArea(.all)
+            
             if validateUser.showResults {
-                MenuView()
+                HomeView(loginVM: LoginViewModel())
             } else {
                 LoginView(loginVM: LoginViewModel())
             }
-        }
-    }
-}
-
-struct MenuView: View {
-    var body: some View{
-        NavigationView{
-            TabView{
-                TabEventView().tabItem(){
-                    Image("tab1")
-                    Text("Eventos")
-                }
-                TabInvitationView().tabItem(){
-                    Image("tab2")
-                    Text("Invitaciones")
-                }
-                TabFriendView().tabItem(){
-                    Image("tab3")
-                    Text("Amigos")
-                }
-                TabPlaceView().tabItem(){
-                    Image("tab4")
-                    Text("Lugares")
-                }
-                TabProfileView().tabItem(){
-                    Image("tab5")
-                    Text("Perfil")
-                }
-                
-            }.navigationBarTitle(Text("YourWay App"))
         }
     }
 }

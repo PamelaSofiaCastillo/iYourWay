@@ -2,15 +2,66 @@
 //  TabInvitationView.swift
 //  YourWay
 //
-//  Created by Alumnos on 11/9/19.
+//  Created by Sofia Castillo on 11/9/19.
 //  Copyright © 2019 yourway. All rights reserved.
 //
 
 import SwiftUI
 
-struct TabInvitationView: View {
+struct SportEventMemberRow: View {
+    var sportEvent: SportEventViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack {
+                Image(systemName: "sportscourt.fill")
+                    .resizable()
+                    .frame(width: 70, height: 50, alignment: .top)
+                    .padding(.leading, 16)
+                    .padding(.top, 8)
+                Spacer()
+            }
+            VStack {
+                HStack {
+                    Text(sportEvent.title)
+                        .font(.system(size: 20))
+                        .bold()
+                        .lineLimit(2)
+                        .padding(.top, 4)
+                    Spacer()
+                }
+                HStack {
+                    Text(sportEvent.description)
+                        .font(.system(size: 15))
+                        .lineLimit(2)
+                        .padding(.top, 8)
+                    Spacer()
+                }
+                Spacer()
+            }
+            .padding(.leading, 8)
+            .padding(.trailing, 16)
+        }
+    }
+}
+
+struct TabInvitationView: View {
+    @State private var showingChildView = false
+    @ObservedObject private var sportEventListViewModel = SportEventListViewModel(userIdInv: "12")
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                List(self.sportEventListViewModel.sportEventsAsMember) { sportEvent in
+                    NavigationLink(destination: AboutEventView(sportEventViewModel: sportEvent)) {
+                        SportEventRow(sportEvent: sportEvent)
+                    }
+                }
+                .padding(.top, 16)
+             }
+            .navigationBarTitle("")
+            .navigationBarHidden(true)
+        }
     }
 }
 

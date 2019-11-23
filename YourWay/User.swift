@@ -9,19 +9,21 @@
 import Foundation
 
 struct User: Codable {
-    var name: String
-    var lastName: String
-    var email: String
-    var password: String
-    var imageUrl: String
-    var active: Bool
+    var id: Int?
+    var name: String?
+    var lastName: String?
+    var email: String?
+    var password: String?
+    var imageUrl: String?
+    var active: Bool?
 
     init(){
-        name = ""
-        lastName = ""
-        email = ""
-        password = ""
-        imageUrl = ""
+        id = 0
+        name = "Unknowm"
+        lastName = "Unknowm"
+        email = "Unknowm"
+        password = "Unknowm"
+        imageUrl = "Unknowm"
         active = true
     }
 }

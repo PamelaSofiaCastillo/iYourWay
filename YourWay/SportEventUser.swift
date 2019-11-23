@@ -8,11 +8,12 @@
 
 import Foundation
 
-struct SportEventUser: Codable {
-    var id: Int
-    var userId: Int
-    var eventId: Int
-    var user: User
+struct SportEventUser: Codable, Identifiable {
+    //var idd = UUID()
+    var id: Int?
+    var userId: Int?
+    var eventId: Int?
+    var user: User?
     
     init(){
         id = 0

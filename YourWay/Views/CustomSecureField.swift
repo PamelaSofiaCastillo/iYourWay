@@ -2,7 +2,7 @@
 //  CustomSecureField.swift
 //  iYourway
 //
-//  Created by Gabriela Antezana on 11/12/19.
+//  Created by Sofia Castillo on 11/12/19.
 //  Copyright © 2019 Sofia Castillo. All rights reserved.
 //
 
@@ -21,7 +21,7 @@ struct CustomSecureField: View {
                 .multilineTextAlignment(.center)
                 .padding()
                 .multilineTextAlignment(.center)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
         }
     }
 }

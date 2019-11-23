@@ -9,8 +9,8 @@
 import Foundation
 
 class LoginViewModel: ObservableObject {
-    @Published var email = ""
-    @Published var password = ""
-    
-    
+    @Published var email = "sofia19castle@gmail.com"
+    @Published var password = "123"
+    @Published var name = "Sofia"
+    @Published var lastName = "Castillo"
 }

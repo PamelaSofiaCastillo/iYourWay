@@ -25,11 +25,27 @@
 		7F6010BB23772E82006703C5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BA23772E82006703C5 /* Place.swift */; };
 		7F6010BD23772FA2006703C5 /* SportEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BC23772FA2006703C5 /* SportEvent.swift */; };
 		7F6010BF237736C5006703C5 /* SportEventUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6010BE237736C5006703C5 /* SportEventUser.swift */; };
+		FD12DCE023876F4700C855B6 /* RateEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12DCDF23876F4700C855B6 /* RateEventView.swift */; };
+		FD12DCE2238779D000C855B6 /* CustomRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12DCE1238779D000C855B6 /* CustomRatingView.swift */; };
+		FD6E621123849C74009BAF65 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E621023849C74009BAF65 /* HomeView.swift */; };
+		FD6E62132384B564009BAF65 /* YourWayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E62122384B564009BAF65 /* YourWayService.swift */; };
+		FD6E62152384B944009BAF65 /* SportEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E62142384B944009BAF65 /* SportEventViewModel.swift */; };
+		FD6E62172384BA54009BAF65 /* SportEventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E62162384BA54009BAF65 /* SportEventListViewModel.swift */; };
+		FD6E62192384BC91009BAF65 /* AboutEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E62182384BC91009BAF65 /* AboutEventView.swift */; };
 		FD901229237B89CE009D3E94 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD901228237B89CE009D3E94 /* RegisterViewModel.swift */; };
 		FD90122B237B89F0009D3E94 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90122A237B89F0009D3E94 /* LoginViewModel.swift */; };
 		FD90122D237B8A27009D3E94 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90122C237B8A27009D3E94 /* CustomTextField.swift */; };
 		FD90122F237B8A48009D3E94 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90122E237B8A48009D3E94 /* CustomSecureField.swift */; };
 		FD901231237B8A61009D3E94 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD901230237B8A61009D3E94 /* CustomButton.swift */; };
+		FD90D5382388DCCC00CEE183 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D5372388DCCC00CEE183 /* PlaygroundView.swift */; };
+		FD90D53A2389418200CEE183 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D5392389418200CEE183 /* UserViewModel.swift */; };
+		FD90D53C2389427600CEE183 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D53B2389427600CEE183 /* UserListViewModel.swift */; };
+		FD90D53E2389448D00CEE183 /* AboutFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D53D2389448D00CEE183 /* AboutFriendView.swift */; };
+		FD90D54023894DB900CEE183 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D53F23894DB900CEE183 /* MapView.swift */; };
+		FD90D5422389571E00CEE183 /* OnePlaceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D5412389571E00CEE183 /* OnePlaceMapView.swift */; };
+		FD90D5442389737400CEE183 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D5432389737400CEE183 /* PlaceViewModel.swift */; };
+		FD90D54623897C2700CEE183 /* PlaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90D54523897C2700CEE183 /* PlaceListViewModel.swift */; };
+		FDF011CA2384F314006E1EB0 /* AddSportEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF011C92384F314006E1EB0 /* AddSportEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,11 +69,27 @@
 		7F6010BA23772E82006703C5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		7F6010BC23772FA2006703C5 /* SportEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEvent.swift; sourceTree = "<group>"; };
 		7F6010BE237736C5006703C5 /* SportEventUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventUser.swift; sourceTree = "<group>"; };
+		FD12DCDF23876F4700C855B6 /* RateEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateEventView.swift; sourceTree = "<group>"; };
+		FD12DCE1238779D000C855B6 /* CustomRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRatingView.swift; sourceTree = "<group>"; };
+		FD6E621023849C74009BAF65 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FD6E62122384B564009BAF65 /* YourWayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourWayService.swift; sourceTree = "<group>"; };
+		FD6E62142384B944009BAF65 /* SportEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventViewModel.swift; sourceTree = "<group>"; };
+		FD6E62162384BA54009BAF65 /* SportEventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventListViewModel.swift; sourceTree = "<group>"; };
+		FD6E62182384BC91009BAF65 /* AboutEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutEventView.swift; sourceTree = "<group>"; };
 		FD901228237B89CE009D3E94 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		FD90122A237B89F0009D3E94 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		FD90122C237B8A27009D3E94 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		FD90122E237B8A48009D3E94 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		FD901230237B8A61009D3E94 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FD90D5372388DCCC00CEE183 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		FD90D5392389418200CEE183 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		FD90D53B2389427600CEE183 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		FD90D53D2389448D00CEE183 /* AboutFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFriendView.swift; sourceTree = "<group>"; };
+		FD90D53F23894DB900CEE183 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FD90D5412389571E00CEE183 /* OnePlaceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlaceMapView.swift; sourceTree = "<group>"; };
+		FD90D5432389737400CEE183 /* PlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
+		FD90D54523897C2700CEE183 /* PlaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewModel.swift; sourceTree = "<group>"; };
+		FDF011C92384F314006E1EB0 /* AddSportEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSportEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +160,7 @@
 		7F6010A1237717F5006703C5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				FD6E62122384B564009BAF65 /* YourWayService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -137,14 +170,23 @@
 			children = (
 				7F6010A423771862006703C5 /* LoginView.swift */,
 				7F6010A623771EC4006703C5 /* RegisterView.swift */,
+				FD6E621023849C74009BAF65 /* HomeView.swift */,
 				7F6010B023772C9E006703C5 /* TabEventView.swift */,
+				FD6E62182384BC91009BAF65 /* AboutEventView.swift */,
+				FD12DCDF23876F4700C855B6 /* RateEventView.swift */,
 				7F6010B223772CB9006703C5 /* TabInvitationView.swift */,
 				7F6010B423772CCA006703C5 /* TabFriendView.swift */,
+				FD90D53D2389448D00CEE183 /* AboutFriendView.swift */,
 				7F6010B623772CE0006703C5 /* TabPlaceView.swift */,
+				FD90D53F23894DB900CEE183 /* MapView.swift */,
+				FD90D5412389571E00CEE183 /* OnePlaceMapView.swift */,
 				7F6010B823772CF9006703C5 /* TabProfileView.swift */,
+				FDF011C92384F314006E1EB0 /* AddSportEventView.swift */,
 				FD90122C237B8A27009D3E94 /* CustomTextField.swift */,
 				FD90122E237B8A48009D3E94 /* CustomSecureField.swift */,
 				FD901230237B8A61009D3E94 /* CustomButton.swift */,
+				FD12DCE1238779D000C855B6 /* CustomRatingView.swift */,
+				FD90D5372388DCCC00CEE183 /* PlaygroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +196,12 @@
 			children = (
 				FD901228237B89CE009D3E94 /* RegisterViewModel.swift */,
 				FD90122A237B89F0009D3E94 /* LoginViewModel.swift */,
+				FD6E62142384B944009BAF65 /* SportEventViewModel.swift */,
+				FD6E62162384BA54009BAF65 /* SportEventListViewModel.swift */,
+				FD90D5392389418200CEE183 /* UserViewModel.swift */,
+				FD90D53B2389427600CEE183 /* UserListViewModel.swift */,
+				FD90D5432389737400CEE183 /* PlaceViewModel.swift */,
+				FD90D54523897C2700CEE183 /* PlaceListViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -233,21 +281,37 @@
 				FD90122F237B8A48009D3E94 /* CustomSecureField.swift in Sources */,
 				7F60108F2377172B006703C5 /* YourWay.xcdatamodeld in Sources */,
 				7F6010BB23772E82006703C5 /* Place.swift in Sources */,
+				FD90D5422389571E00CEE183 /* OnePlaceMapView.swift in Sources */,
 				FD901231237B8A61009D3E94 /* CustomButton.swift in Sources */,
+				FD90D53C2389427600CEE183 /* UserListViewModel.swift in Sources */,
 				FD901229237B89CE009D3E94 /* RegisterViewModel.swift in Sources */,
+				FD90D54623897C2700CEE183 /* PlaceListViewModel.swift in Sources */,
 				7F6010B323772CB9006703C5 /* TabInvitationView.swift in Sources */,
 				7F60108A2377172B006703C5 /* AppDelegate.swift in Sources */,
+				FD6E62192384BC91009BAF65 /* AboutEventView.swift in Sources */,
 				7F6010B123772C9E006703C5 /* TabEventView.swift in Sources */,
 				7F6010912377172B006703C5 /* ContentView.swift in Sources */,
+				FD90D5382388DCCC00CEE183 /* PlaygroundView.swift in Sources */,
 				FD90122D237B8A27009D3E94 /* CustomTextField.swift in Sources */,
+				FD90D53A2389418200CEE183 /* UserViewModel.swift in Sources */,
+				FD12DCE2238779D000C855B6 /* CustomRatingView.swift in Sources */,
 				7F6010B723772CE0006703C5 /* TabPlaceView.swift in Sources */,
 				7F6010A723771EC4006703C5 /* RegisterView.swift in Sources */,
+				FD6E62132384B564009BAF65 /* YourWayService.swift in Sources */,
+				FD12DCE023876F4700C855B6 /* RateEventView.swift in Sources */,
 				FD90122B237B89F0009D3E94 /* LoginViewModel.swift in Sources */,
 				7F6010A523771862006703C5 /* LoginView.swift in Sources */,
+				FD6E62152384B944009BAF65 /* SportEventViewModel.swift in Sources */,
+				FDF011CA2384F314006E1EB0 /* AddSportEventView.swift in Sources */,
+				FD6E621123849C74009BAF65 /* HomeView.swift in Sources */,
+				FD90D54023894DB900CEE183 /* MapView.swift in Sources */,
+				FD6E62172384BA54009BAF65 /* SportEventListViewModel.swift in Sources */,
 				7F6010B523772CCA006703C5 /* TabFriendView.swift in Sources */,
 				7F60108C2377172B006703C5 /* SceneDelegate.swift in Sources */,
 				7F6010B923772CF9006703C5 /* TabProfileView.swift in Sources */,
+				FD90D5442389737400CEE183 /* PlaceViewModel.swift in Sources */,
 				7F6010A923772063006703C5 /* User.swift in Sources */,
+				FD90D53E2389448D00CEE183 /* AboutFriendView.swift in Sources */,
 				7F6010BD23772FA2006703C5 /* SportEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
